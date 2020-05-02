@@ -44,7 +44,7 @@ function App() {
   const [ Cart, dispatchCart ] = useReducer(cartReducer, cartinitialState);
   let option = []
   let [status, setStatus] = useState('')
-  const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
+  const PATH = "/PhoneShop_wtthout_redux"
 
   useEffect(() => {
 

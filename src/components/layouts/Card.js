@@ -6,7 +6,7 @@ import { addCart } from "./../../store/action"
 function Itemcrad(props) {
 
 
-    const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
+    const PATH = "/PhoneShop_wtthout_redux"
     return (
         <React.Fragment>
             {

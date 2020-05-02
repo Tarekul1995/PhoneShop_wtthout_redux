@@ -22,7 +22,7 @@ const validationSchema = yup.object().shape({
 function SignUp() {
 
     const singction = useContext(AuthContext);
-    const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
+    const PATH = "/PhoneShop_wtthout_redux"
 
     useEffect(()=>{
         document.body.style.background = "linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB)";

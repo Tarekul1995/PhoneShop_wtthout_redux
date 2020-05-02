@@ -19,7 +19,7 @@ function Login() {
 
     const logContext = useContext(AuthContext);
     const state = useContext(stateContext)
-    const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
+    const PATH = "/PhoneShop_wtthout_redux"
     let location = useLocation()
 
     useEffect(() => {

@@ -11,7 +11,7 @@ function Navigation(props) {
   let y = [...new Set(essentail.Data.data.map(value => value.Brand))]
   let cartarr = [];
   const authstate = useContext(AuthContext)
-  const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
+  const PATH = "/PhoneShop_wtthout_redux"
 
   
   if (essentail.cartData.item.length > 0) {
