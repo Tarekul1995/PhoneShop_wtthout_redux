@@ -22,6 +22,7 @@ const validationSchema = yup.object().shape({
 function SignUp() {
 
     const singction = useContext(AuthContext);
+    const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
 
     useEffect(()=>{
         document.body.style.background = "linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB)";
@@ -45,7 +46,7 @@ function SignUp() {
     },[singction.Authen])
 
     if (singction.Authen.isAuth === "yes") return (
-        <Redirect from='/SignUp' to={{ pathname: '/', state: { status: "Register Success" } }} />
+        <Redirect from='/SignUp' to={{ pathname: `${PATH}/Home`, state: { status: "Register Success" } }} />
     )
 
     return (

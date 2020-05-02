@@ -33,9 +33,10 @@ function Home() {
 
     return (
         <React.Fragment>
-            <Carousel />
+            { !itemContext.Data.loading && <Carousel />}
+            
             <div  style={itemContext.Data.loading ? null : { background: "linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB)", paddingTop:'30px' }}>
-             <ReactNotification />
+            <ReactNotification />
             {
                 itemContext.Data.loading ? <Spinner /> : (
                     <div className="container">

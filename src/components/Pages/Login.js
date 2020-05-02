@@ -19,6 +19,7 @@ function Login() {
 
     const logContext = useContext(AuthContext);
     const state = useContext(stateContext)
+    const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
     let location = useLocation()
 
     useEffect(() => {
@@ -33,7 +34,7 @@ function Login() {
 
     if (logContext.Authen.isAuth === "yes") return (
         
-            <Redirect  to={{ pathname: '/', state: { status: "Login Success" } }} />
+            <Redirect  to={{ pathname: `${PATH}/Home`, state: { status: "Login Success" } }} />
        
     )
 

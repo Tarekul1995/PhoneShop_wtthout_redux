@@ -25,7 +25,7 @@ function AutoSug(props) {
             <input {...getInputProps()}   className="form-control mr-sm-2" placeholder="Search" />
            
 
-            <div className="card" style={{  position:'absolute',height: isOpen ? '200px' : '0px' , overflowY: isOpen ? 'scroll' : 'hidden' }} >
+            <div className="card" style={{  position:'absolute',height: isOpen ? '200px' : '0px' , overflowY: isOpen ? 'scroll' : 'hidden' , zIndex:isOpen ? 1 :-1}} >
               <ul {...getMenuProps()} className="list-group list-group-flush" >
                 {
                   isOpen ? fillterName.filter(item => !inputValue || item.value.includes(inputValue))

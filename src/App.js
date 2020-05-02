@@ -44,6 +44,7 @@ function App() {
   const [ Cart, dispatchCart ] = useReducer(cartReducer, cartinitialState);
   let option = []
   let [status, setStatus] = useState('')
+  const PATH = "http://Tarekul1995.github.io/PhoneShop_wtthout_redux"
 
   useEffect(() => {
 
@@ -92,23 +93,22 @@ function App() {
         {
           status && (
             <Navigation fbAuth={status} />
-        // {/* <Carousel /> */}
         )
         }
         <Switch>
-          <Route path='/' exact>
+          <Route path={`${PATH}/Home`} exact>
             <Home />
           </Route>
-          <Route path='/Brand/:name'>
+          <Route path={`${PATH}/Brand/:name`}>
             <BrandShow />
           </Route>
-          <Route path='/Mobile/:id'>
+          <Route path={`${PATH}/Mobile/:id`}>
             <Mobiledetail />
           </Route>
-          <Route path='/SignUp'>
+          <Route path={`${PATH}/SignUp`}>
             <SignUp />
           </Route>
-          <Route path='/login'>
+          <Route path={`${PATH}/login`}>
             <Login />
           </Route>
         </Switch>
