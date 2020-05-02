@@ -49,7 +49,7 @@ function Navigation(props) {
               </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               {
-                y.map(value => <Link className="dropdown-item" key={value} to={`${PATH}/Brand/${value}`}>{value}</Link>)
+                y.map(value => <Link className="dropdown-item" key={value} to={`/Brand/${value}`}>{value}</Link>)
               }
             </div>
           </li>
@@ -60,10 +60,10 @@ function Navigation(props) {
             authstate.Authen.isAuth === 'no' || props.fbAuth === 'no' ? (
               <React.Fragment>
                 <li className="nav-item">
-                  <Link className="nav-link" to={`${PATH}/login`}>Login</Link>
+                  <Link className="nav-link" to={`/login`}>Login</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={`${PATH}/SignUp`}>SginUp</Link>
+                  <Link className="nav-link" to={`/SignUp`}>SginUp</Link>
                 </li>
               </React.Fragment>
             ) : (

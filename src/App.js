@@ -99,16 +99,16 @@ function App() {
           <Route path={`${PATH}/`} >
             <Home />
           </Route>
-          <Route path={`${PATH}/Brand/:name`}>
+          <Route path={`/Brand/:name`}>
             <BrandShow />
           </Route>
-          <Route path={`${PATH}/Mobile/:id`}>
+          <Route path={`/Mobile/:id`}>
             <Mobiledetail />
           </Route>
-          <Route path={`${PATH}/SignUp`}>
+          <Route path={`/SignUp`}>
             <SignUp />
           </Route>
-          <Route path={`${PATH}/login`}>
+          <Route path={`/login`}>
             <Login />
           </Route>
         </Switch>
