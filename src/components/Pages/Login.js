@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { login } from './../../store/action'
 import { AuthContext, stateContext } from './../../App'
 import ReactNotification from 'react-notifications-component'
-import { Redirect, useLocation } from 'react-router-dom'
+import { Redirect, useLocation,Link } from 'react-router-dom'
 import { notification } from "./../../store/Notification"
 
 
@@ -69,6 +69,7 @@ function Login() {
                                     <small className="form-text" style={{ color: 'red' }}> {errors.password}  </small>
                                 </div>
                                 <div>
+                                    <Link  to="/SignUp" style={{ paddingTop:"10px" }}>If you don't any account.Click the Link</Link>
                                     <button className="btn btn-primary" style={{ marginLeft:"45%",marginTop:"30px" }} disabled={isSubmitting} type="submit">
                                         Login
                                     </button>

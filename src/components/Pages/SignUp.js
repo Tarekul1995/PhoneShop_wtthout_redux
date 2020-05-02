@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { actionSignup } from './../../store/action'
 import { AuthContext } from './../../App'
 import ReactNotification, { store } from 'react-notifications-component'
-import { Redirect } from 'react-router-dom'
+import { Redirect,Link } from 'react-router-dom'
 
 const validationSchema = yup.object().shape({
     firstName: yup.string().min(5).max(30).required().matches(/^[a-zA-Z\s.]*$/g, "Digit is not allowed"),
@@ -117,6 +117,7 @@ function SignUp() {
                                     <small className="form-text" style={{ color: 'red' }}> {errors.rePassword}  </small>
                                 </div>
                                 <div>
+                                    <Link to="/login" style={{ paddingTop:"10px" }}>If you have any account?follow the link</Link>
                                     <button className="btn btn-primary" style={{ marginLeft:"38%",marginTop:"30px" }} disabled={isSubmitting} type="submit">
                                         submit
                         </button>
