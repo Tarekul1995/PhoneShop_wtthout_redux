@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PhoneShop_wtthout_redux/static/css/main.5ff28b28.chunk.css",
-    "main.js": "/PhoneShop_wtthout_redux/static/js/main.347a3976.chunk.js",
-    "main.js.map": "/PhoneShop_wtthout_redux/static/js/main.347a3976.chunk.js.map",
+    "main.js": "/PhoneShop_wtthout_redux/static/js/main.73c061dd.chunk.js",
+    "main.js.map": "/PhoneShop_wtthout_redux/static/js/main.73c061dd.chunk.js.map",
     "runtime-main.js": "/PhoneShop_wtthout_redux/static/js/runtime-main.b0c4b248.js",
     "runtime-main.js.map": "/PhoneShop_wtthout_redux/static/js/runtime-main.b0c4b248.js.map",
     "static/css/2.1eb21bb0.chunk.css": "/PhoneShop_wtthout_redux/static/css/2.1eb21bb0.chunk.css",
     "static/js/2.893a8f57.chunk.js": "/PhoneShop_wtthout_redux/static/js/2.893a8f57.chunk.js",
     "static/js/2.893a8f57.chunk.js.map": "/PhoneShop_wtthout_redux/static/js/2.893a8f57.chunk.js.map",
     "index.html": "/PhoneShop_wtthout_redux/index.html",
-    "precache-manifest.e1ff98afc09ec952b91832cfae9d2c74.js": "/PhoneShop_wtthout_redux/precache-manifest.e1ff98afc09ec952b91832cfae9d2c74.js",
+    "precache-manifest.7794974c01c33f4e5a50169d1777124f.js": "/PhoneShop_wtthout_redux/precache-manifest.7794974c01c33f4e5a50169d1777124f.js",
     "service-worker.js": "/PhoneShop_wtthout_redux/service-worker.js",
     "static/css/2.1eb21bb0.chunk.css.map": "/PhoneShop_wtthout_redux/static/css/2.1eb21bb0.chunk.css.map",
     "static/css/main.5ff28b28.chunk.css.map": "/PhoneShop_wtthout_redux/static/css/main.5ff28b28.chunk.css.map",
@@ -43,6 +43,6 @@
     "static/css/2.1eb21bb0.chunk.css",
     "static/js/2.893a8f57.chunk.js",
     "static/css/main.5ff28b28.chunk.css",
-    "static/js/main.347a3976.chunk.js"
+    "static/js/main.73c061dd.chunk.js"
   ]
 }

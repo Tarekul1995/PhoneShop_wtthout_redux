@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PhoneShop_wtthout_redux/precache-manifest.e1ff98afc09ec952b91832cfae9d2c74.js"
+  "/PhoneShop_wtthout_redux/precache-manifest.7794974c01c33f4e5a50169d1777124f.js"
 );
 
 self.addEventListener('message', (event) => {
