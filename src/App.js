@@ -96,7 +96,7 @@ function App() {
         )
         }
         <Switch>
-          <Route path={`${PATH}/Home`} exact>
+          <Route path={`${PATH}/`} exact>
             <Home />
           </Route>
           <Route path={`${PATH}/Brand/:name`}>
