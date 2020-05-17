@@ -4,6 +4,7 @@ import { stateContext, AuthContext } from './../../App'
 import Spinner from './../layouts/Spinner'
 import { addCart, updateCart } from "./../../store/action"
 import ReactNotification from 'react-notifications-component'
+import { Redirect } from 'react-router-dom'
 
 
 
@@ -29,6 +30,7 @@ function Mobiledetail() {
         
     },[fillterContext.cartData.item])
     
+    if(fillterContext.cartData.redirect) return <Redirect to={{ pathname: '/login', state: { message: "Please login your accont" }}} />
     
     return (
         <div style={{ background: "linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB)" }}>
@@ -56,7 +58,7 @@ function Mobiledetail() {
                                   </div>
                                 ) : null
                             }
-                            <button type="button" className="btn btn-primary" onClick={()=>addCart(authstate.user,fillterId[0].id)}>
+                            <button type="button" className="btn btn-primary" onClick={()=>addCart(authstate.user,fillterId[0].id,fillterContext.dispatchCart)}>
                                 <span><i className="fa fa-shopping-cart"></i> </span>
                                 Add Cart
                             </button>
