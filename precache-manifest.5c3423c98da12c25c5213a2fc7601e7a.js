@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64903b6ff60c58e70cb85f0522a4d44c",
+    "revision": "e267580dbc112f59ff822e3cba4de6a9",
     "url": "/PhoneShop_wtthout_redux/index.html"
   },
   {
-    "revision": "77c8a9c436d91a82c128",
+    "revision": "2b92e1cfd9192ec84c26",
     "url": "/PhoneShop_wtthout_redux/static/css/2.1eb21bb0.chunk.css"
   },
   {
-    "revision": "44e139cb73b777fbdd52",
+    "revision": "6df57889f4e7565009cf",
     "url": "/PhoneShop_wtthout_redux/static/css/main.5ff28b28.chunk.css"
   },
   {
-    "revision": "77c8a9c436d91a82c128",
-    "url": "/PhoneShop_wtthout_redux/static/js/2.0e490574.chunk.js"
+    "revision": "2b92e1cfd9192ec84c26",
+    "url": "/PhoneShop_wtthout_redux/static/js/2.40a805f5.chunk.js"
   },
   {
     "revision": "8e4ca391633f3405a39456781bb2e73e",
-    "url": "/PhoneShop_wtthout_redux/static/js/2.0e490574.chunk.js.LICENSE.txt"
+    "url": "/PhoneShop_wtthout_redux/static/js/2.40a805f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44e139cb73b777fbdd52",
-    "url": "/PhoneShop_wtthout_redux/static/js/main.65ccbc5c.chunk.js"
+    "revision": "6df57889f4e7565009cf",
+    "url": "/PhoneShop_wtthout_redux/static/js/main.dee544c3.chunk.js"
   },
   {
     "revision": "1e42c6b346e6f196a8bd",
